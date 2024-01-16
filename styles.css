@@ -6,3 +6,28 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.quick-insert-modal {
+    padding: 16px;
+  }
+  
+  .quick-insert-input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .quick-insert-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+}
+
+.quick-insert-modal-button-container {
+display: flex;
+justify-content: flex-end;
+}
+
+.is-invalid {
+border: 1px solid red;
+}
